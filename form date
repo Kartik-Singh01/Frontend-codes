@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="1">
+        
+        <fieldset>
+            <legend>HTML form Dummy</legend>
+            <label for="datepicker">Enter Date</label>
+            <input type="date" id="datepicker">
+        <br>
+        <br>
+
+        <label for="selector">Chose your supplement</label>
+        <select name="dishes" id="selector1">
+            <option value="">Whey Ptotein</option>
+            <option value="">Createin</option>
+            <option value="">Pre Workout</option>
+        </select>
+        <br>
+        <br>            
+
+
+        <button>mai hu  buttton</button>
+        <br>
+        <br>
+        <textarea name="textrea1" id="textarea1" cols="30" rows="10" placeholder="enter your text here"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
