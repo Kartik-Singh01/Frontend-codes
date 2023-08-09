@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document70</title>
+</head>
+<body>
+    <form >
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+        <br>
+        <br>
+
+        <label for="email id">Email ID:</label>
+        <input type="text" name="Email Id" id="email id">
+        <br>
+        <br>
+
+        <label for="telno">Tel No.:</label>
+        <input type="tel" name="tel no" id="telno">
+        <br>
+        <br>
+        <label for="occ">Occupation</label>
+        <select name="occupation" id="occ">
+            <option value="Student">Student</option>
+            <option value="Pro">Pro</option>
+        </select>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Topic of Interest</legend>
+
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="name" id="HTML">
+            <br>
+            <br>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="name" id="CSS">
+            <br>
+            <br><label for="JavaScript">JavaScript</label>
+            <input type="checkbox" name="name" id="JavaScript">
+            <br>
+            <br>
+            
+        </fieldset>
+        <br>
+        <br>
+        <label for="ta1" placeholder="write here">Comments</label>
+        <textarea name="textarea1" id="ta1" cols="30" rows="10"></textarea>
+        <button>Continue</button>
+
+
+
+
+        
+
+    </form>
+</body>
+</html>
