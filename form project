@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio by HTML</title>
+</head>
+<body>
+    <div>
+
+        <div>
+            <h1>Kartik Singh</h1>
+            <p>Contact: <a href="jdf.com">kartik.grnoida@gmail.com</a></p>
+            <p>Contact: <a href="jdf.com">kartik.git</a></p>
+            <p>Contact: <a href="jdf.com">kartik.linkin</a></p>
+        </div>
+
+        <table>
+            <tr>
+                <td><img src="kartik dp-min.jpeg"  alt="Kartik Pic"></td>
+                <td>Simple guy learing bout life</td>
+            </tr>
+        </table>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Btech at Bennet University</li>
+                <li>10+2 R.I.S</li>
+            </ul>
+        </section>
+
+        <section>
+            <
+        </section>
+    </div>
+</body>
+</html>
