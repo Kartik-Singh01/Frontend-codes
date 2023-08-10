@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: blanchedalmond;
+            border-style: groove;
+            text-align: center;
+            border-width: 5px;
+            border-color: blue;
+            
+            border-radius: 10px;
+        }
+        .para{
+            background-color: brown;
+            border: solid black;
+            border-radius: 7px;
+            width: 300px;
+            padding: 10px;
+            margin: 50px;
+        }
+        .nayara{
+            background-color: rgb(81, 42, 165);
+            border: solid black;
+            border-radius: 7px;
+            width: 300px;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Heading bolte</h1>
+    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto at adipisci voluptas beatae, eos, molestiae fuga alias placeat fugit expedita sequi quasi quis! Laborum fugiat iste dolor. Velit labore obcaecati distinctio, a rem perferendis natus aspernatur autem. Modi praesentium, id rem ad accusamus perspiciatis qui culpa, iusto quaerat quod nemo?</p>
+    <p class="nayara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere iure repellendus sequi praesentium dicta accusamus quo ducimus, quos sit repellat ex ipsum. Sit quisquam optio laboriosam. Inventore, dolor recusandae debitis dicta nesciunt nam ex necessitatibus, quaerat qui illo distinctio?</p>
+</body>
+</html>
