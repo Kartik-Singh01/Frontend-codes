@@ -1,0 +1,34 @@
+css display propert ka basic
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: solid pink;
+            height: 300px;
+            width: 300px;
+            padding: 5px;
+            margin: 25px;
+        }
+        span{
+            border: solid rgb(16, 64, 119);
+            height: 300px;
+            width: 300px;
+            padding: 5px;
+            margin: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div>My name is KArtik </div>
+    <div>My name is Kartik Rajput</div>
+    <span>My name is KArtik</span>
+    <span>My name is Kartik Rajput</span>
+</body>
+</html>
