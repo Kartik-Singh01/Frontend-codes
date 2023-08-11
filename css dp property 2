@@ -1,0 +1,44 @@
+In this we learn about position absolute, relative 
+and how to give margin and padding
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid palevioletred;
+        }
+
+        img{
+            margin: 1px;
+        }
+        .i2{
+           position: relative;
+           top: 90px;
+        }
+        .i1{
+            /* position: absolute; */
+            top
+        }
+        .container{
+            position: relative;
+            height: 8000px;
+            
+        }
+        .i3{
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="n3.jpeg" alt="p2" height="350px" width="220px"  class="i1">
+        <img src="n3.jpeg" alt="p3" height="350px" width="220px" class="i2" >
+        <img src="n3.jpeg" alt="p4" height="350px" width="220px" class="i3" >
+    </div>
+</body>
+</html>
