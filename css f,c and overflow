@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #i1{
+            float: right;
+        }
+        #i2{
+            float: right;
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="i1" src="n4.jpeg" alt="naruto">
+        <img id="i2" src="n2.jpeg" alt="uzumaki">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+
+    </div>
+</body>
+</html>
