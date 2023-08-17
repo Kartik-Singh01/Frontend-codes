@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: solid rebeccapurple;
+            background-color: aqua;
+            margin: 50px;
+            padding: 100px;
+            display: flex;
+            flex-direction: row;
+            width: 600px;
+        }
+        .boxleft{
+            border: solid pink;
+            background-color: aquamarine;
+            width: 300px;
+        }
+        .boxright{
+            border: solid gray;
+            background-color: brown;
+            width: 300px;
+        }
+        img{
+            width: 150px;
+        }
+        @media (min-width: 640px) {
+            .container{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="containe">
+        <div class="boxleft">
+            <p>lorem</p>
+            <p>porem</p>
+
+        </div>
+
+        <div class="boxright">
+            <img src="https://plus.unsplash.com/premium_photo-1680871320511-8be2085ff281?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BsYXNofGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60" height="300px" alt="huihui">
+
+        </div>
+
+    </div>
+</body>
+</html>
