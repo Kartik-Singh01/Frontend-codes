@@ -1,0 +1,24 @@
+import React, { useState } from 'react'
+
+const UseEffect = () => {
+  useState(()=>{
+    alert('We r in useStat')
+  })
+
+const [clicked,setClicked] = useState();
+  
+  return (
+    <div>
+      <button onClick={()=>setClicked('Just')}>Just</button>
+      <br/>
+      <hr/>
+      <button onClick={()=>setClicked('Do')}>Do</button>
+      <br/>
+      <hr/>
+      <button onClick={()=>setClicked('It')}>It</button>
+      <h1>{clicked}</h1>
+    </div>
+  )
+}
+
+export default UseEffect
