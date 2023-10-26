@@ -1,0 +1,29 @@
+// main.jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <h1>Hello</h1>
+  </React.StrictMode>
+
+  
+);
+
+
+
+//App.jsx
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default App
+
